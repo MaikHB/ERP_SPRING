@@ -76,7 +76,7 @@ jobs:
             --tag ghcr.io/$OWNER_LOWER/$APP_NAME_LOWER:${{ github.sha }} \
             --push .
         shell: bash
-          # --- NUEVOS PASOS PARA ACTUALIZAR MANIFESTOS ---
+         # --- NUEVOS PASOS PARA ACTUALIZAR MANIFESTOS ---
       - name: Checkout manifests repo
         uses: actions/checkout@v4
         with:
@@ -87,10 +87,10 @@ jobs:
       - name: Update image tag in YAML
         run: |
           cd manifests/manifiestos
-          IMAGE_PATH="ghcr.io/maikhb/testmain"
+          IMAGE_PATH="ghcr.io/maikhb/projecterp"
           NEW_TAG="${{ github.sha }}"
-          
-          # Actualizar el tag de la imagen en el deployment
+         
+           # Actualizar el tag de la imagen en el deployment
           sed -i "s|${IMAGE_PATH}:.*|${IMAGE_PATH}:${NEW_TAG}|g" app-deployment.yaml
 
       - name: Commit & Push updated manifests
