@@ -1,4 +1,4 @@
 # ERP_SpringBoot
-Enterprise Resource Planning (ERP) System using Spring Boot
+Sistema de Planificación de Recursos Empresariales (ERP) con Spring Boot
 
-The "Enterprise Resource Planning (ERP) System using Spring Boot" is a comprehensive software solution designed to streamline and optimize the management of various business processes within an organization. This Spring Boot-based ERP system aims to centralize and automate essential operations, providing a cohesive platform that enhances productivity, efficiency, and decision-making across different departments and functions.
+El "Sistema de Planificación de Recursos Empresariales (ERP) con Spring Boot" es una solución de software integral diseñada para optimizar la gestión de diversos procesos de negocio dentro de una organización. Este sistema ERP basado en Spring Boot busca centralizar y automatizar las operaciones esenciales, proporcionando una plataforma cohesiva que mejora la productividad, la eficiencia y la toma de decisiones en diferentes departamentos y funciones.
